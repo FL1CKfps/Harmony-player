@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+  /* Container adjustments */
+  .container {
+    padding: 8px;
+    max-width: 100%;
+  }
+
+  /* Video player adjustments */
+  .video-player {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+
+  /* Search bar optimization */
+  .search-bar {
+    width: 100%;
+    margin: 8px 0;
+  }
+  
+  /* Button and input adjustments */
+  button, input {
+    min-height: 44px; /* Better touch targets */
+    font-size: 16px; /* Prevent iOS zoom on focus */
+  }
+
+  /* List view adjustments */
+  .video-list {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  /* Touch-friendly spacing */
+  .clickable {
+    padding: 12px;
+    margin: 8px 0;
+  }
+} 
